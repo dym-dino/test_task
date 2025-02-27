@@ -1,0 +1,25 @@
+base_model
+==========
+
+.. automodule:: database.base_model
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :exclude-members: BaseModel,QuerySet
+
+Constants
+---------
+
+.. py:data:: T
+
+
+.. autoclass:: database.base_model.BaseModel
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. autoclass:: database.base_model.QuerySet
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

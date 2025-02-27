@@ -1,0 +1,14 @@
+loging_functions
+================
+
+.. automodule:: logger.loging_functions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :exclude-members: Logger
+
+.. autoclass:: logger.loging_functions.Logger
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

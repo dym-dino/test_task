@@ -1,0 +1,19 @@
+models
+======
+
+.. automodule:: database.models
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :exclude-members: Data,Documents
+
+.. autoclass:: database.models.Data
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. autoclass:: database.models.Documents
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

@@ -1,0 +1,14 @@
+database_config
+===============
+
+.. automodule:: database.database_config
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :exclude-members: DatabaseConfig
+
+.. autoclass:: database.database_config.DatabaseConfig
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

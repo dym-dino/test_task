@@ -1,0 +1,29 @@
+variables
+=========
+
+.. automodule:: config.variables
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Constants
+---------
+
+.. py:data:: DB_HOST
+
+
+.. py:data:: DB_NAME
+
+
+.. py:data:: DB_USER
+
+
+.. py:data:: DB_PASSWORD
+
+
+.. py:data:: DB_PORT
+
+
+.. py:data:: DATABASE_INFO
+
+

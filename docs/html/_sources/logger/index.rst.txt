@@ -1,0 +1,18 @@
+logger
+======
+
+LOGGER INIT
+--------------------------------------------------------------------------------
+IMPORT LIBRARIES
+
+.. contents::
+   :local:
+   :depth: 2
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :glob:
+
+   loging_functions
+
