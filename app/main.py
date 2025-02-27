@@ -62,10 +62,15 @@ def process_document_objects(document: Documents) -> bool:
         object_keys = document.document_data.get('objects', [])
         for key, change_data in document.document_data.get('operation_details', {}).items():
             # Retrieves Data records matching the specified object_keys and old values for update
+            if isinstance(change_data.get('old'), list):
+                old_value_condition = getattr(Data, key).in_(change_data.get('old'))
+            else:
+                old_value_condition = (getattr(Data, key) == change_data.get('old'))
+
             filter_condition = or_(
                 Data.object.in_(object_keys),
                 Data.parent.in_(object_keys)
-            ) & (getattr(Data, key) == change_data.get('old'))
+            ) & old_value_condition
 
             updated_count = Data.update_all(filter_condition, {key: change_data.get('new')})
             logger.debug(f"Обновлено {updated_count} записей для поля {key}: "
